@@ -89,7 +89,7 @@
 
   <div class="stage">
     {#each frames as f, i (f.id)}
-      <figure class="frame" data-active={mode === 'all' || step === i} aria-hidden={mode === 'player' && step !== i}>
+      <figure class="frame" data-active={mode === 'all' || step === i} aria-hidden={ready && mode === 'player' && step !== i ? true : undefined}>
         <figcaption>
           <span class="n">{i + 1}</span>
           {f.title}
@@ -108,28 +108,28 @@
                   <ul class="chips">
                     <li>Customers</li>
                     <li>Invoices</li>
-                    <li>Bookings</li>
+                    <li>Payments</li>
                   </ul>
                 </div>
               </div>
             {:else if f.id === 'ask'}
               <div class="chat">
-                <p class="bubble you"><span class="who">You</span>Add customers, invoices and a booking calendar.</p>
+                <p class="bubble you"><span class="who">You</span>Add customers, invoices and payments.</p>
                 <p class="bubble bot">
-                  <span class="who">Assistant</span>Adding three building blocks. Each brings its own list and screens.
+                  <span class="who">Assistant</span>Adding three building blocks. Each brings its own lists and screens.
                 </p>
               </div>
               <ul class="chips picked">
                 <li>Customers</li>
                 <li>Invoices</li>
-                <li>Bookings</li>
+                <li>Payments</li>
               </ul>
             {:else if f.id === 'screens'}
               <div class="shell">
                 <ul class="side" aria-label="Menu">
                   <li class="on">Customers</li>
                   <li>Invoices</li>
-                  <li>Bookings</li>
+                  <li>Payments</li>
                 </ul>
                 <table class="grid">
                   <caption class="sr">A list of customers with sample data</caption>

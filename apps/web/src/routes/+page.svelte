@@ -63,7 +63,7 @@
     <ol class="steps">
       <li>
         <h3>Start empty or from a template</h3>
-        <p>The app begins empty. At first run you can start fresh or preview a bundled template.</p>
+        <p>The app begins empty. He is being built to let you start fresh or preview a bundled template at first run.</p>
       </li>
       <li>
         <h3>Add building blocks by asking</h3>
@@ -90,7 +90,7 @@
   <section class="wrap prose" aria-labelledby="yours-h">
     <h2 id="yours-h">Your data, your AI account</h2>
     <ul>
-      <li>Your data stays in a local database on your own machine, with one local owner.</li>
+      <li>Your data is stored in a local database on your own machine, with one local owner.</li>
       <li>
         The assistant runs on your own AI account: a command-line AI tool such as Claude Code, a
         ChatGPT sign-in, or an API key. Arthur does not supply one. You can skip it and use the app
@@ -155,8 +155,7 @@
 <footer class="foot">
   <div class="wrap">
     <p>
-      Arthur by HappyVertical. This page has no trackers, analytics or sign-up form. The wording is a
-      draft.
+      Arthur by HappyVertical. This page has no trackers, analytics or sign-up form.
     </p>
   </div>
 </footer>
