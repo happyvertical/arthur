@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "productId": "arthur",
+  "bundleId": "com.happyvertical.arthur",
+  "displayName": "Arthur",
+  "bridge": {
+    "envPrefix": "ARTHUR",
+    "mcpPath": "/mcp"
+  },
+  "sidecar": {
+    "healthRoute": "/api/_runtime/health",
+    "ownerClaimRoute": "/api/_runtime/owner-link",
+    "dataDirectory": "runtime",
+    "workingDirectory": "app",
+    "args": ["build/index.js"]
+  },
+  "features": {
+    "default": ["images", "ai-providers"]
+  },
+  "acknowledgedDynamicImports": [
+    {
+      "from": "@happyvertical/sql",
+      "specifier": "@duckdb/node-api"
+    },
+    {
+      "from": "@happyvertical/smrt-core",
+      "specifier": "tsx"
+    },
+    {
+      "from": "@happyvertical/smrt-core",
+      "specifier": "oxc-transform"
+    },
+    {
+      "from": "debug",
+      "specifier": "supports-color"
+    }
+  ],
+  "runtimeFiles": ["smrt.cookbook.json"],
+  "exclude": ["@mediapipe/*", "@happyvertical/smrt-template-sveltekit"]
+}

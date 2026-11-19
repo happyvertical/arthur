@@ -9,3 +9,21 @@ dist/
 !.env.example
 # local review screenshots
 /screenshots/
+# arthur app: generated and local state
+.smrt/
+.smrt-local
+*.sqlite*
+.data/
+apps/app/prebuilt-*.json
+apps/app/.gitignore
+apps/app/src/lib/types/smrt-generated/
+apps/app/src/lib/server/smrt-register.ts
+apps/app/src/lib/generated/
+apps/app/src/routes/api/*
+!apps/app/src/routes/api/_runtime/
+!apps/app/src/routes/api/assistant/
+!apps/app/src/routes/api/cookbook/
+!apps/app/src/routes/api/connect-ai/
+!apps/app/src/routes/api/onboarding/
+!apps/app/src/routes/api/history/
+!apps/app/src/routes/api/plugin-mode/

@@ -10,8 +10,10 @@
   },
   "scripts": {
     "dev": "pnpm --filter @arthur/web dev",
-    "build": "pnpm --filter @arthur/web build",
-    "typecheck": "pnpm --filter @arthur/web typecheck",
+    "dev:app": "pnpm --filter @arthur/app dev",
+    "build": "pnpm --filter @arthur/web build && pnpm --filter @arthur/app build",
+    "test:app": "pnpm --filter @arthur/app test",
+    "typecheck": "pnpm --filter @arthur/web typecheck && pnpm --filter @arthur/app typecheck",
     "lint": "biome check ."
   },
   "devDependencies": {
