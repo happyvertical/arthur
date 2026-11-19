@@ -18,16 +18,17 @@ Arthur is **not released yet**. There is no installer, and signing is not done. 
 he depends on is not released either. Only macOS and Linux are planned so far, and optional cloud
 services are planned and not built.
 
-The app's source is not in this repository yet, so there is nothing to run from here, and this
-README has no screenshots. Download and documentation pages, and screenshots of the real app, will
-be added once the source is public.
+The app's source is now in this repository, in [`apps/app`](apps/app), and you can run it from
+a checkout (see below). This README has no screenshots yet. Download and documentation pages, and
+screenshots of the real app, will be added later.
 
 ## What is in this repository
 
 - [`apps/web`](apps/web): the homepage, a static SvelteKit site served at
   [arthur.happyvertical.com](https://arthur.happyvertical.com).
+- [`apps/app`](apps/app): the Arthur app, a SvelteKit app built on the published
+  `@happyvertical/smrt-*` packages.
 - Releases and the update feed for the desktop app will be published here once there is a release.
-  The desktop app itself will live in `apps/desktop`.
 
 ## Working on the homepage
 
@@ -42,6 +43,19 @@ pnpm lint        # Biome
 ```
 
 See [`apps/web/README.md`](apps/web/README.md) for details.
+
+## Working on the app
+
+```sh
+pnpm install
+pnpm dev:app         # app dev server on http://localhost:4910
+pnpm test:app        # unit tests, in process, no containers
+pnpm typecheck       # includes the app
+pnpm build           # builds the site and the app
+```
+
+Copy `apps/app/.env.example` to `apps/app/.env` to supply an assistant key. The app keeps its data
+in a local SQLite database in your operating system's data directory.
 
 ## Contributing and issues
 
