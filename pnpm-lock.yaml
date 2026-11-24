@@ -31,7 +31,7 @@ importers:
         version: 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-app-runtime':
         specifier: 0.62.11
-        version: 0.62.11(@happyvertical/speech@0.115.0)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
+        version: 0.62.11(@happyvertical/speech@0.115.0)(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-approvals':
         specifier: 0.62.11
         version: 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
@@ -40,25 +40,25 @@ importers:
         version: 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-chat':
         specifier: 0.62.11
-        version: 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
+        version: 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-comments':
         specifier: 0.62.11
         version: 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-commerce':
         specifier: 0.62.11
-        version: 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@noble/curves@2.0.1)(@noble/hashes@2.0.1)(@scure/bip32@2.0.1)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
+        version: 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@noble/curves@2.0.1)(@noble/hashes@2.0.1)(@scure/bip32@2.0.1)(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-config':
         specifier: 0.62.11
         version: 0.62.11
       '@happyvertical/smrt-content':
         specifier: 0.62.11
-        version: 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(gsap@3.15.1)(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
+        version: 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(gsap@3.15.1)(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-core':
         specifier: 0.62.11
         version: 0.62.11(supports-color@7.2.0)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-desktop':
         specifier: 0.62.11
-        version: 0.62.11(@happyvertical/speech@0.115.0)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
+        version: 0.62.11(@happyvertical/speech@0.115.0)(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-education':
         specifier: 0.62.11
         version: 0.62.11(@happyvertical/speech@0.115.0)(@types/node@24.19.2)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
@@ -67,7 +67,7 @@ importers:
         version: 0.62.11(@happyvertical/speech@0.115.0)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-expenses':
         specifier: 0.62.11
-        version: 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@noble/curves@2.0.1)(@noble/hashes@2.0.1)(@scure/bip32@2.0.1)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
+        version: 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@noble/curves@2.0.1)(@noble/hashes@2.0.1)(@scure/bip32@2.0.1)(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-facts':
         specifier: 0.62.11
         version: 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(ws@8.23.0)(zod@4.6.7)
@@ -88,7 +88,7 @@ importers:
         version: 0.62.11(@types/node@24.19.2)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-inventory':
         specifier: 0.62.11
-        version: 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
+        version: 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-jobs':
         specifier: 0.62.11
         version: 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(ws@8.23.0)(zod@4.6.7)
@@ -97,7 +97,7 @@ importers:
         version: 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-manufacturing':
         specifier: 0.62.11
-        version: 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
+        version: 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-marketing':
         specifier: 0.62.11
         version: 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(ws@8.23.0)(zod@4.6.7)
@@ -112,16 +112,16 @@ importers:
         version: 0.62.11(@happyvertical/speech@0.115.0)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-preferences':
         specifier: 0.62.11
-        version: 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
+        version: 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-products':
         specifier: 0.62.11
-        version: 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
+        version: 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-profiles':
         specifier: 0.62.11
         version: 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-projects':
         specifier: 0.62.11
-        version: 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
+        version: 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-properties':
         specifier: 0.62.11
         version: 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(ws@8.23.0)(zod@4.6.7)
@@ -136,22 +136,22 @@ importers:
         version: 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-social':
         specifier: 0.62.11
-        version: 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(gsap@3.15.1)(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
+        version: 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(gsap@3.15.1)(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-subscriptions':
         specifier: 0.62.11
         version: 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-support':
         specifier: 0.62.11
-        version: 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
+        version: 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-svelte':
         specifier: 0.62.11
-        version: 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
+        version: 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-tags':
         specifier: 0.62.11
         version: 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-template-sveltekit':
         specifier: 0.62.11
-        version: 0.62.11(a99a6c994825628e55adac6d5c647e07)
+        version: 0.62.11(76485bd099553d85bcd3c039c745745b)
       '@happyvertical/smrt-tenancy':
         specifier: 0.62.11
         version: 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(ws@8.23.0)(zod@4.6.7)
@@ -169,17 +169,17 @@ importers:
         version: 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-video':
         specifier: 0.62.11
-        version: 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(gsap@3.15.1)(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
+        version: 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(gsap@3.15.1)(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-voice':
         specifier: 0.62.11
-        version: 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(gsap@3.15.1)(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
+        version: 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(gsap@3.15.1)(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-webhooks':
         specifier: 0.62.11
         version: 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(ws@8.23.0)(zod@4.6.7)
     devDependencies:
       '@happyvertical/smrt-cli':
         specifier: 0.62.11
-        version: 0.62.11(@happyvertical/speech@0.115.0)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1))(ws@8.23.0)(zod@4.6.7)
+        version: 0.62.11(@happyvertical/speech@0.115.0)(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1))(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-vitest':
         specifier: 0.62.11
         version: 0.62.11(@noble/hashes@2.0.1)(@testing-library/dom@10.4.2)(supports-color@7.2.0)(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1))(vitest@4.1.10(@types/node@24.19.2)(happy-dom@20.14.6)(jsdom@29.1.1(@noble/hashes@2.0.1))(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(ws@8.23.0)(zod@4.6.7)
@@ -188,10 +188,10 @@ importers:
         version: 2.4.0
       '@sveltejs/adapter-node':
         specifier: ^5.5.7
-        version: 5.5.8(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))
+        version: 5.5.8(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))
       '@sveltejs/kit':
-        specifier: 2.70.3
-        version: 2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1))
+        specifier: 3.1.1
+        version: 3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1))
       '@sveltejs/vite-plugin-svelte':
         specifier: ^7.3.0
         version: 7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1))
@@ -218,10 +218,10 @@ importers:
     devDependencies:
       '@sveltejs/adapter-static':
         specifier: ^4.0.1
-        version: 4.0.1(@sveltejs/kit@3.2.0(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.8(@types/node@26.6.6)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.8(@types/node@26.6.6)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))
+        version: 4.0.1(@sveltejs/kit@3.4.0(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.8(@types/node@26.6.6)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.8(@types/node@26.6.6)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))
       '@sveltejs/kit':
         specifier: ^3.2.0
-        version: 3.2.0(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.8(@types/node@26.6.6)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.8(@types/node@26.6.6)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1))
+        version: 3.4.0(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.8(@types/node@26.6.6)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.8(@types/node@26.6.6)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1))
       '@sveltejs/vite-plugin-svelte':
         specifier: ^7.3.1
         version: 7.3.1(svelte@5.57.3)(vite@8.3.8(@types/node@26.6.6)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1))
@@ -3034,6 +3034,7 @@ packages:
   '@sapphire/shapeshift@3.9.7':
     resolution: {integrity: sha512-4It2mxPSr4OGn4HSQWGmhFMsNFGfFVhWeRPCRwbH972Ek2pzfGRZtb0pJ4Ze6oIzcyh2jw7nUDa6qGlWofgd9g==}
     engines: {node: '>=v16'}
+    deprecated: Shapeshift was created when other validation libraries had significant limitations in performance and error reporting. Those advantages have diminished as libraries such as Zod have become faster and improved their error messages, while also gaining broader environment support, a larger community, and custom error printers.
 
   '@scure/base@2.0.0':
     resolution: {integrity: sha512-3E1kpuZginKkek01ovG8krQ0Z44E3DHPjc5S2rjJw9lZn3KSQOs8S7wqikF/AH7iRanHypj85uGyxk0XAyC37w==}
@@ -3269,24 +3270,24 @@ packages:
     peerDependencies:
       '@sveltejs/kit': ^3.0.0-next.0
 
-  '@sveltejs/kit@2.70.3':
-    resolution: {integrity: sha512-UDvEYuZqAMbfB/oXIoqKvbKcb7YczK5zYrzmsGV1zRJk03jntwp8dXiYoIJotxAndsKvcPFtx9H1GRSKFdSHgg==}
-    engines: {node: '>=18.13'}
+  '@sveltejs/kit@3.1.1':
+    resolution: {integrity: sha512-BiEMvekYXE9Gu/YhWJ/yJ0WDLH1PX/dmjuAeFp5rrtdmgdzkjt7DvimlSP+/U4tgposl7pkE20luHpcnc6BgRw==}
+    engines: {node: '>=22.17'}
     hasBin: true
     peerDependencies:
       '@opentelemetry/api': ^1.0.0
-      '@sveltejs/vite-plugin-svelte': ^3.0.0 || ^4.0.0-next.1 || ^5.0.0 || ^6.0.0-next.0 || ^7.0.0
-      svelte: ^4.0.0 || ^5.0.0-next.0
-      typescript: ^5.3.3 || ^6.0.0
-      vite: ^5.0.3 || ^6.0.0 || ^7.0.0-beta.0 || ^8.0.0
+      '@sveltejs/vite-plugin-svelte': ^7.0.0
+      svelte: ^5.57.1
+      typescript: ^6.0.0
+      vite: ^8.0.12
     peerDependenciesMeta:
       '@opentelemetry/api':
         optional: true
       typescript:
         optional: true
 
-  '@sveltejs/kit@3.2.0':
-    resolution: {integrity: sha512-zhb8GTeFd/6BwfqaY4wKIF7eFACYOgn/KNppV6UHFBHk174B4d7xTtN7x0PxaPPlwnCTgbnpaYF6r9lirz0Biw==}
+  '@sveltejs/kit@3.4.0':
+    resolution: {integrity: sha512-0GBSN4rR/IptM40J5knl2lU/BFTP4U5mF+dXBE5VyHuBI5+bf/Zs3YzrAVKrqidZ9CRj9NUaHb0rxzFNkfUw6g==}
     engines: {node: '>=22.17'}
     hasBin: true
     peerDependencies:
@@ -3401,9 +3402,6 @@ packages:
 
   '@types/content-type@1.1.9':
     resolution: {integrity: sha512-Hq9IMnfekuOCsEmYl4QX2HBrT+XsfXiupfrLLY8Dcf3Puf4BkBOxSbWYTITSOQAhJoYPBez+b4MJRpIYL65z8A==}
-
-  '@types/cookie@0.6.0':
-    resolution: {integrity: sha512-4Kh9a6B2bQciAhf7FSuMRRkUWecJgJu9nPnx3yzpsfXX/c50REIqpHY4C82bXP90qrLtXtkDxTZosYO3UpOwlA==}
 
   '@types/deep-eql@4.0.2':
     resolution: {integrity: sha512-c9h9dVVMigMPc4bwTvC5dxqtqJZwQPePsWjPlpSOnojbor6pGqdk541lfA7AqFQr5pB1BRdq0juY9db81BwyFw==}
@@ -3840,10 +3838,6 @@ packages:
   cookie-signature@1.2.2:
     resolution: {integrity: sha512-D76uU73ulSXrD1UXF4KE2TMxVVwhsnCgfAyTg9k8P6KGZjlXKrOLe4dJQKI3Bxi5wjesZoFXJWElNWBjPZMbhg==}
     engines: {node: '>=6.6.0'}
-
-  cookie@0.6.0:
-    resolution: {integrity: sha512-U71cyTamuh1CRNCfpGY6to28lxvNwPG4Guz/EVjgf3Jmzv0vlDp1atT9eS5dDjMYHucpHbWns6Lwf3BKz6svdw==}
-    engines: {node: '>= 0.6'}
 
   cookie@0.7.2:
     resolution: {integrity: sha512-yki5XnKuf750l50uGTllt6kKILY4nQ1eNIQatoXEByZ5dWgnKqbnqmTrBE5B4N7lrMJKQ2ytWMiTO2o0v6Ew/w==}
@@ -4788,10 +4782,6 @@ packages:
   keyv@5.6.0:
     resolution: {integrity: sha512-CYDD3SOtsHtyXeEORYRx2qBtpDJFjRTGXUtmNEMGyzYOKj1TE3tycdlho7kA1Ufx9OYWZzg52QFBGALTirzDSw==}
 
-  kleur@4.1.5:
-    resolution: {integrity: sha512-o+NO+8WrRiQEE4/7nwRJhN1HWpVmJm511pBHUxPLtp0BUISzlBplORYSmTclCnJvQq2tKu/sgl3xVpkc7ZWuQQ==}
-    engines: {node: '>=6'}
-
   kuler@2.0.0:
     resolution: {integrity: sha512-Xq9nH7KlWZmXAtodXDDRE7vs6DU1gTU8zYDHDiWLSip45Egwq3plLHzPn27NgvzL2r1LMPC1vdqh98sQxtqj4A==}
 
@@ -5722,9 +5712,6 @@ packages:
   serve-static@2.2.1:
     resolution: {integrity: sha512-xRXBn0pPqQTVQiC8wyQrKs2MOlX24zQ0POGaj0kultvoOCstBQM5yvOhAVSUwOMjQtTvsPWoNCHfPGwaaQJhTw==}
     engines: {node: '>= 18'}
-
-  set-cookie-parser@3.2.3:
-    resolution: {integrity: sha512-bDO7NdAkLprNt3BNl3LAh0oVnOS5+WspzxOxiboo7vRIyTqj2pvFmNWYEFynSGQgpJ+7yG/9nc/aSG20UDBUpg==}
 
   setprototypeof@1.2.0:
     resolution: {integrity: sha512-E5LDX7Wrp85Kil5bhZv46j8jOeboKq5JMmYM3gVGdGH8xFpPWXUMsNrlODCrkoxMEeNi/XZIwuRvY4XNwYMJpw==}
@@ -8023,7 +8010,7 @@ snapshots:
       - ws
       - zod
 
-  '@happyvertical/smrt-app-runtime@0.62.11(@happyvertical/speech@0.115.0)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)':
+  '@happyvertical/smrt-app-runtime@0.62.11(@happyvertical/speech@0.115.0)(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)':
     dependencies:
       '@happyvertical/encryption': 0.115.0(@types/node@24.19.2)(typescript@6.0.3)
       '@happyvertical/smrt-approvals': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
@@ -8035,7 +8022,7 @@ snapshots:
       '@happyvertical/smrt-users': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/sql': 0.115.0
     optionalDependencies:
-      '@sveltejs/kit': 2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1))
+      '@sveltejs/kit': 3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1))
     transitivePeerDependencies:
       - '@aws-sdk/client-sqs'
       - '@electric-sql/pglite'
@@ -8124,13 +8111,13 @@ snapshots:
       - ws
       - zod
 
-  '@happyvertical/smrt-chat@0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)':
+  '@happyvertical/smrt-chat@0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)':
     dependencies:
       '@happyvertical/ai': 0.115.0(supports-color@7.2.0)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/animation': 0.5.0(gsap@3.15.1)
       '@happyvertical/images': 0.115.0(sharp@0.35.5(@types/node@24.19.2))
       '@happyvertical/smrt-agents': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
-      '@happyvertical/smrt-app-runtime': 0.62.11(@happyvertical/speech@0.115.0)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
+      '@happyvertical/smrt-app-runtime': 0.62.11(@happyvertical/speech@0.115.0)(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-assets': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-config': 0.62.11
       '@happyvertical/smrt-core': 0.62.11(supports-color@7.2.0)(ws@8.23.0)(zod@4.6.7)
@@ -8179,18 +8166,18 @@ snapshots:
       - ws
       - zod
 
-  '@happyvertical/smrt-cli@0.62.11(@happyvertical/speech@0.115.0)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1))(ws@8.23.0)(zod@4.6.7)':
+  '@happyvertical/smrt-cli@0.62.11(@happyvertical/speech@0.115.0)(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1))(ws@8.23.0)(zod@4.6.7)':
     dependencies:
       '@happyvertical/ai': 0.115.0(supports-color@7.2.0)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/encryption': 0.115.0(@types/node@24.19.2)(typescript@6.0.3)
       '@happyvertical/files': 0.115.0(supports-color@7.2.0)
       '@happyvertical/logger': 0.115.0
       '@happyvertical/smrt-agents': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
-      '@happyvertical/smrt-app-runtime': 0.62.11(@happyvertical/speech@0.115.0)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
+      '@happyvertical/smrt-app-runtime': 0.62.11(@happyvertical/speech@0.115.0)(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-assets': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-config': 0.62.11
       '@happyvertical/smrt-core': 0.62.11(supports-color@7.2.0)(ws@8.23.0)(zod@4.6.7)
-      '@happyvertical/smrt-desktop': 0.62.11(@happyvertical/speech@0.115.0)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
+      '@happyvertical/smrt-desktop': 0.62.11(@happyvertical/speech@0.115.0)(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-dev-mcp': 0.62.11
       '@happyvertical/smrt-inference': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-ledgers': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(ws@8.23.0)(zod@4.6.7)
@@ -8259,7 +8246,7 @@ snapshots:
       - ws
       - zod
 
-  '@happyvertical/smrt-commerce@0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@noble/curves@2.0.1)(@noble/hashes@2.0.1)(@scure/bip32@2.0.1)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)':
+  '@happyvertical/smrt-commerce@0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@noble/curves@2.0.1)(@noble/hashes@2.0.1)(@scure/bip32@2.0.1)(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)':
     dependencies:
       '@happyvertical/accounting': 0.115.0(debug@4.4.3(supports-color@7.2.0))(supports-color@7.2.0)
       '@happyvertical/payments': 0.115.0(@noble/curves@2.0.1)(@noble/hashes@2.0.1)(@scure/bip32@2.0.1)
@@ -8267,11 +8254,11 @@ snapshots:
       '@happyvertical/smrt-core': 0.62.11(supports-color@7.2.0)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-jobs': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-ledgers': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(ws@8.23.0)(zod@4.6.7)
-      '@happyvertical/smrt-products': 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
+      '@happyvertical/smrt-products': 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-profiles': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-reports': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-subscriptions': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
-      '@happyvertical/smrt-svelte': 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
+      '@happyvertical/smrt-svelte': 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-tenancy': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-types': 0.62.11
       '@happyvertical/smrt-ui': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(svelte@5.57.3)
@@ -8322,7 +8309,7 @@ snapshots:
       jiti: 2.7.0
       yaml: 2.9.1
 
-  '@happyvertical/smrt-content@0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(gsap@3.15.1)(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)':
+  '@happyvertical/smrt-content@0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(gsap@3.15.1)(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)':
     dependencies:
       '@happyvertical/ai': 0.115.0(supports-color@7.2.0)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/documents': 0.115.0(@types/node@24.19.2)(supports-color@7.2.0)(ws@8.23.0)(zod@4.6.7)
@@ -8334,7 +8321,7 @@ snapshots:
       '@happyvertical/pdf': 0.65.9(@types/node@24.19.2)(supports-color@7.2.0)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-agents': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-assets': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(ws@8.23.0)(zod@4.6.7)
-      '@happyvertical/smrt-chat': 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
+      '@happyvertical/smrt-chat': 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-core': 0.62.11(supports-color@7.2.0)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-facts': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-images': 0.62.11(@happyvertical/speech@0.115.0)(@types/node@24.19.2)(gsap@3.15.1)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(ws@8.23.0)(zod@4.6.7)
@@ -8427,9 +8414,9 @@ snapshots:
       - ws
       - zod
 
-  '@happyvertical/smrt-desktop@0.62.11(@happyvertical/speech@0.115.0)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)':
+  '@happyvertical/smrt-desktop@0.62.11(@happyvertical/speech@0.115.0)(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)':
     dependencies:
-      '@happyvertical/smrt-app-runtime': 0.62.11(@happyvertical/speech@0.115.0)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
+      '@happyvertical/smrt-app-runtime': 0.62.11(@happyvertical/speech@0.115.0)(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
     transitivePeerDependencies:
       - '@aws-sdk/client-sqs'
       - '@electric-sql/pglite'
@@ -8544,10 +8531,10 @@ snapshots:
       - ws
       - zod
 
-  '@happyvertical/smrt-expenses@0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@noble/curves@2.0.1)(@noble/hashes@2.0.1)(@scure/bip32@2.0.1)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)':
+  '@happyvertical/smrt-expenses@0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@noble/curves@2.0.1)(@noble/hashes@2.0.1)(@scure/bip32@2.0.1)(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)':
     dependencies:
       '@happyvertical/smrt-assets': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(ws@8.23.0)(zod@4.6.7)
-      '@happyvertical/smrt-commerce': 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@noble/curves@2.0.1)(@noble/hashes@2.0.1)(@scure/bip32@2.0.1)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
+      '@happyvertical/smrt-commerce': 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@noble/curves@2.0.1)(@noble/hashes@2.0.1)(@scure/bip32@2.0.1)(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-core': 0.62.11(supports-color@7.2.0)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-tenancy': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-types': 0.62.11
@@ -8822,11 +8809,11 @@ snapshots:
       - yauzl
       - zod
 
-  '@happyvertical/smrt-inventory@0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)':
+  '@happyvertical/smrt-inventory@0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)':
     dependencies:
       '@happyvertical/logger': 0.115.0
       '@happyvertical/smrt-core': 0.62.11(supports-color@7.2.0)(ws@8.23.0)(zod@4.6.7)
-      '@happyvertical/smrt-products': 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
+      '@happyvertical/smrt-products': 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-tenancy': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-ui': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(svelte@5.57.3)
       '@happyvertical/sql': 0.115.0
@@ -8962,12 +8949,12 @@ snapshots:
       - ws
       - zod
 
-  '@happyvertical/smrt-manufacturing@0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)':
+  '@happyvertical/smrt-manufacturing@0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)':
     dependencies:
       '@happyvertical/logger': 0.115.0
       '@happyvertical/smrt-core': 0.62.11(supports-color@7.2.0)(ws@8.23.0)(zod@4.6.7)
-      '@happyvertical/smrt-inventory': 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
-      '@happyvertical/smrt-products': 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
+      '@happyvertical/smrt-inventory': 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
+      '@happyvertical/smrt-products': 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-tenancy': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-types': 0.62.11
       '@happyvertical/smrt-ui': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(svelte@5.57.3)
@@ -9194,11 +9181,11 @@ snapshots:
       - '@happyvertical/speech'
       - pdfjs-dist
 
-  '@happyvertical/smrt-preferences@0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)':
+  '@happyvertical/smrt-preferences@0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)':
     dependencies:
       '@happyvertical/smrt-core': 0.62.11(supports-color@7.2.0)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-inference': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
-      '@happyvertical/smrt-svelte': 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
+      '@happyvertical/smrt-svelte': 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-tenancy': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-users': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/sql': 0.115.0
@@ -9237,7 +9224,7 @@ snapshots:
       - ws
       - zod
 
-  '@happyvertical/smrt-products@0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)':
+  '@happyvertical/smrt-products@0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)':
     dependencies:
       '@happyvertical/ai': 0.115.0(supports-color@7.2.0)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/files': 0.115.0(supports-color@7.2.0)
@@ -9245,7 +9232,7 @@ snapshots:
       '@happyvertical/smrt-assets': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-core': 0.62.11(supports-color@7.2.0)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-scanner': 0.62.11
-      '@happyvertical/smrt-svelte': 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
+      '@happyvertical/smrt-svelte': 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-tenancy': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-ui': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(svelte@5.57.3)
       '@happyvertical/smrt-web': 0.62.11(typescript@6.0.3)
@@ -9322,7 +9309,7 @@ snapshots:
       - ws
       - zod
 
-  '@happyvertical/smrt-projects@0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)':
+  '@happyvertical/smrt-projects@0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)':
     dependencies:
       '@happyvertical/ai': 0.115.0(supports-color@7.2.0)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/logger': 0.115.0
@@ -9332,7 +9319,7 @@ snapshots:
       '@happyvertical/smrt-core': 0.62.11(supports-color@7.2.0)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-prompts': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-subscriptions': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
-      '@happyvertical/smrt-svelte': 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
+      '@happyvertical/smrt-svelte': 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-tenancy': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-timesheets': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-types': 0.62.11
@@ -9526,15 +9513,15 @@ snapshots:
       - ws
       - zod
 
-  '@happyvertical/smrt-social@0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(gsap@3.15.1)(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)':
+  '@happyvertical/smrt-social@0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(gsap@3.15.1)(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)':
     dependencies:
       '@happyvertical/smrt-config': 0.62.11
-      '@happyvertical/smrt-content': 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(gsap@3.15.1)(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
+      '@happyvertical/smrt-content': 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(gsap@3.15.1)(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-core': 0.62.11(supports-color@7.2.0)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-secrets': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-tenancy': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-ui': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(svelte@5.57.3)
-      '@happyvertical/smrt-video': 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(gsap@3.15.1)(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
+      '@happyvertical/smrt-video': 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(gsap@3.15.1)(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/utils': 0.115.0
     optionalDependencies:
       svelte: 5.57.3
@@ -9608,14 +9595,14 @@ snapshots:
       - ws
       - zod
 
-  '@happyvertical/smrt-support@0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)':
+  '@happyvertical/smrt-support@0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)':
     dependencies:
       '@happyvertical/logger': 0.115.0
-      '@happyvertical/smrt-chat': 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
+      '@happyvertical/smrt-chat': 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-core': 0.62.11(supports-color@7.2.0)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-jobs': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-messages': 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
-      '@happyvertical/smrt-projects': 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
+      '@happyvertical/smrt-projects': 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-tenancy': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-timesheets': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-ui': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(svelte@5.57.3)
@@ -9657,10 +9644,10 @@ snapshots:
       - ws
       - zod
 
-  '@happyvertical/smrt-svelte@0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)':
+  '@happyvertical/smrt-svelte@0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)':
     dependencies:
       '@happyvertical/logger': 0.115.0
-      '@happyvertical/smrt-chat': 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
+      '@happyvertical/smrt-chat': 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-core': 0.62.11(supports-color@7.2.0)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-fields': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-inference': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
@@ -9732,27 +9719,27 @@ snapshots:
       - ws
       - zod
 
-  '@happyvertical/smrt-template-sveltekit@0.62.11(a99a6c994825628e55adac6d5c647e07)':
+  '@happyvertical/smrt-template-sveltekit@0.62.11(76485bd099553d85bcd3c039c745745b)':
     dependencies:
       '@happyvertical/smrt-agents': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-app-cli': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-app-mcp': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(ws@8.23.0)(zod@4.6.7)
-      '@happyvertical/smrt-app-runtime': 0.62.11(@happyvertical/speech@0.115.0)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
-      '@happyvertical/smrt-chat': 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
+      '@happyvertical/smrt-app-runtime': 0.62.11(@happyvertical/speech@0.115.0)(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
+      '@happyvertical/smrt-chat': 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-core': 0.62.11(supports-color@7.2.0)(ws@8.23.0)(zod@4.6.7)
-      '@happyvertical/smrt-desktop': 0.62.11(@happyvertical/speech@0.115.0)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
+      '@happyvertical/smrt-desktop': 0.62.11(@happyvertical/speech@0.115.0)(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-inference': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-jobs': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(ws@8.23.0)(zod@4.6.7)
-      '@happyvertical/smrt-preferences': 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
+      '@happyvertical/smrt-preferences': 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-prompts': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(ws@8.23.0)(zod@4.6.7)
-      '@happyvertical/smrt-svelte': 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
+      '@happyvertical/smrt-svelte': 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-tenancy': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-types': 0.62.11
       '@happyvertical/smrt-ui': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(svelte@5.57.3)
       '@happyvertical/smrt-users': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-workflows': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/sql': 0.115.0
-      '@sveltejs/kit': 2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1))
+      '@sveltejs/kit': 3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1))
       ajv: 8.20.0
       svelte: 5.57.3
     transitivePeerDependencies:
@@ -9890,16 +9877,16 @@ snapshots:
       - ws
       - zod
 
-  '@happyvertical/smrt-video@0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(gsap@3.15.1)(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)':
+  '@happyvertical/smrt-video@0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(gsap@3.15.1)(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)':
     dependencies:
       '@happyvertical/logger': 0.115.0
       '@happyvertical/smrt-assets': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-config': 0.62.11
-      '@happyvertical/smrt-content': 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(gsap@3.15.1)(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
+      '@happyvertical/smrt-content': 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(gsap@3.15.1)(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-core': 0.62.11(supports-color@7.2.0)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-profiles': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-tenancy': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(ws@8.23.0)(zod@4.6.7)
-      '@happyvertical/smrt-voice': 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(gsap@3.15.1)(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
+      '@happyvertical/smrt-voice': 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(gsap@3.15.1)(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/utils': 0.115.0
     optionalDependencies:
       svelte: 5.57.3
@@ -9977,11 +9964,11 @@ snapshots:
       - ws
       - zod
 
-  '@happyvertical/smrt-voice@0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(gsap@3.15.1)(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)':
+  '@happyvertical/smrt-voice@0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(gsap@3.15.1)(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)':
     dependencies:
       '@happyvertical/smrt-assets': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-config': 0.62.11
-      '@happyvertical/smrt-content': 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(gsap@3.15.1)(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
+      '@happyvertical/smrt-content': 0.62.11(@happyvertical/encryption@0.115.0(@types/node@24.19.2)(typescript@6.0.3))(@happyvertical/speech@0.115.0)(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(@types/node@24.19.2)(debug@4.4.3(supports-color@7.2.0))(gsap@3.15.1)(pdfjs-dist@6.1.200)(sharp@0.35.5(@types/node@24.19.2))(supports-color@7.2.0)(svelte@5.57.3)(typescript@6.0.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-core': 0.62.11(supports-color@7.2.0)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/smrt-tenancy': 0.62.11(@happyvertical/speech@0.115.0)(pdfjs-dist@6.1.200)(supports-color@7.2.0)(svelte@5.57.3)(ws@8.23.0)(zod@4.6.7)
       '@happyvertical/speech': 0.115.0
@@ -11440,40 +11427,36 @@ snapshots:
     dependencies:
       acorn: 8.19.0
 
-  '@sveltejs/adapter-node@5.5.8(@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))':
+  '@sveltejs/adapter-node@5.5.8(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))':
     dependencies:
       '@rollup/plugin-commonjs': 29.0.3(rollup@4.68.5)
       '@rollup/plugin-json': 6.1.0(rollup@4.68.5)
       '@rollup/plugin-node-resolve': 16.0.3(rollup@4.68.5)
       '@rollup/plugin-replace': 6.0.3(rollup@4.68.5)
-      '@sveltejs/kit': 2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1))
+      '@sveltejs/kit': 3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1))
       rollup: 4.68.5
 
-  '@sveltejs/adapter-static@4.0.1(@sveltejs/kit@3.2.0(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.8(@types/node@26.6.6)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.8(@types/node@26.6.6)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))':
+  '@sveltejs/adapter-static@4.0.1(@sveltejs/kit@3.4.0(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.8(@types/node@26.6.6)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.8(@types/node@26.6.6)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))':
     dependencies:
-      '@sveltejs/kit': 3.2.0(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.8(@types/node@26.6.6)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.8(@types/node@26.6.6)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1))
+      '@sveltejs/kit': 3.4.0(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.8(@types/node@26.6.6)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.8(@types/node@26.6.6)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1))
 
-  '@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1))':
+  '@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1))':
     dependencies:
+      '@rolldown/pluginutils': 1.1.0
       '@standard-schema/spec': 1.1.0
-      '@sveltejs/acorn-typescript': 1.0.13(acorn@8.19.0)
       '@sveltejs/vite-plugin-svelte': 7.3.1(svelte@5.57.3)(vite@8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1))
-      '@types/cookie': 0.6.0
-      acorn: 8.19.0
-      cookie: 0.6.0
+      cookie: 2.0.2
       devalue: 5.9.4
       esm-env: 1.2.2
-      kleur: 4.1.5
-      magic-string: 0.30.21
+      magic-string: 1.4.5
       mrmime: 2.0.1
-      set-cookie-parser: 3.2.3
       sirv: 3.0.2
       svelte: 5.57.3
       vite: 8.3.0(@types/node@24.19.2)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)
     optionalDependencies:
       typescript: 6.0.3
 
-  '@sveltejs/kit@3.2.0(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.8(@types/node@26.6.6)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.8(@types/node@26.6.6)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1))':
+  '@sveltejs/kit@3.4.0(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3)(vite@8.3.8(@types/node@26.6.6)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)))(svelte@5.57.3)(typescript@6.0.3)(vite@8.3.8(@types/node@26.6.6)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1))':
     dependencies:
       '@jridgewell/trace-mapping': 0.3.31
       '@rolldown/pluginutils': 1.1.0
@@ -11604,8 +11587,6 @@ snapshots:
       assertion-error: 2.0.1
 
   '@types/content-type@1.1.9': {}
-
-  '@types/cookie@0.6.0': {}
 
   '@types/deep-eql@4.0.2': {}
 
@@ -12031,8 +12012,6 @@ snapshots:
   convert-source-map@2.0.0: {}
 
   cookie-signature@1.2.2: {}
-
-  cookie@0.6.0: {}
 
   cookie@0.7.2: {}
 
@@ -13188,8 +13167,6 @@ snapshots:
     dependencies:
       '@keyv/serialize': 1.1.1
 
-  kleur@4.1.5: {}
-
   kuler@2.0.0: {}
 
   launder@1.7.2:
@@ -14179,8 +14156,6 @@ snapshots:
       send: 1.2.1(supports-color@7.2.0)
     transitivePeerDependencies:
       - supports-color
-
-  set-cookie-parser@3.2.3: {}
 
   setprototypeof@1.2.0: {}
 
