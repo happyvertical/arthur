@@ -15,10 +15,11 @@ See the repository README for setup.
 ## Desktop packaging
 
 `smrt-desktop.json` and `icons/` are the only desktop-specific files: the wrapper, bundler and
-build workflow all come from smrt. Not final yet:
+build workflow all come from smrt.
 
-- `productId`, `bundleId` (`com.happyvertical.arthur`) and `displayName` are provisional until the
-  owner confirms them. Do not release before then: installed apps cannot cleanly change them.
+- Product identity (decided by the owner): `productId` `arthur`, `bundleId`
+  `com.happyvertical.arthur`, `displayName` `Arthur`. The `bundleId` is permanent: it must not
+  change after the first signed release.
 - `updaterPublicKey` is the public half of Arthur's own updater key (minisign key ID
   `C8D31B12A7970852`). The private key and password are not in this repository; a release run
   refuses until they and the Apple secrets are in the protected `desktop-release` environment.
