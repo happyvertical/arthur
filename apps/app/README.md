@@ -21,7 +21,7 @@ build workflow all come from smrt.
   `com.happyvertical.arthur`, `displayName` `Arthur`. The `bundleId` is permanent: it must not
   change after the first signed release.
 - `updaterPublicKey` is the public half of Arthur's own updater key (minisign key ID
-  `C8D31B12A7970852`). The private key and password are not in this repository; a release run
+  `96D5CE992D73A585`). The private key and password are not in this repository; a release run
   refuses until they and the Apple secrets are in the protected `desktop-release` environment.
 - The icons are drawn from the app's favicon and can be replaced.
 
