@@ -46,8 +46,11 @@ See [`apps/web/README.md`](apps/web/README.md) for details.
 
 ## Working on the app
 
+The app is a standalone pnpm project with its own lockfile, so install it separately.
+
 ```sh
 pnpm install
+pnpm install:app     # the app's own dependencies
 pnpm dev:app         # app dev server on http://localhost:4910
 pnpm test:app        # unit tests, in process, no containers
 pnpm typecheck       # includes the app
@@ -56,6 +59,15 @@ pnpm build           # builds the site and the app
 
 Copy `apps/app/.env.example` to `apps/app/.env` to supply an assistant key. The app keeps its data
 in a local SQLite database in your operating system's data directory.
+
+## Desktop builds
+
+The [Desktop workflow](.github/workflows/desktop.yml) calls smrt's reusable desktop build with the
+settings in [`apps/app/smrt-desktop.json`](apps/app/smrt-desktop.json). Pull requests build
+unsigned macOS (arm64) and Linux (x64) installers and run a launch smoke test. Runs outside pull
+requests also keep the unsigned installers as workflow artifacts. Nothing is signed or published
+unless someone dispatches the workflow on `main` with `release` turned on, and that run fails
+until the release environment, its secrets and the updater public key exist.
 
 ## Contributing and issues
 

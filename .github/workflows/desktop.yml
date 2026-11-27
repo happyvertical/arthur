@@ -1,0 +1,44 @@
+# Desktop installers for apps/app, built by smrt's reusable consumer workflow
+# (see "Reusable workflow" in @happyvertical/smrt-desktop's README).
+# Pull requests and pushes build unsigned installers and run the launch smoke.
+# Signing and publishing happen only on a manual dispatch with `release` on.
+name: Desktop
+
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+    inputs:
+      release:
+        description: Sign, notarize and publish (main only; needs the desktop-release environment)
+        type: boolean
+        default: false
+
+# The called workflow asks for contents: write (publish) and actions: read (the
+# environment check); GitHub checks that against the caller even for unsigned
+# runs. Each job in it narrows its own token again.
+permissions:
+  contents: write
+  actions: read
+
+# One run at a time per ref; never cancel one mid-publish.
+concurrency:
+  group: desktop-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  desktop:
+    # v0.73.0. Keep this SHA and smrt_desktop_version in step with the app's pins.
+    uses: happyvertical/smrt/.github/workflows/desktop-consumer-build.yml@d0db154ac0540afef05bfab1e523861020bada12
+    with:
+      app_dir: apps/app
+      targets: aarch64-apple-darwin,x86_64-unknown-linux-gnu
+      bridge_path: apps/app/node_modules/@happyvertical/smrt-app-cli/dist/bin/smrt-mcp-bridge.mjs
+      smrt_desktop_version: 0.73.0
+      release: ${{ github.event_name == 'workflow_dispatch' && inputs.release }}
+    # Release secrets live in this repository's `desktop-release` environment.
+    secrets: inherit

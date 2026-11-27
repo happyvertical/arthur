@@ -1,5 +1,5 @@
 import { PaymentAllocation as PaymentAllocationBase } from '@happyvertical/smrt-commerce';
 import { smrt } from '@happyvertical/smrt-core';
 
-@smrt({})
+@smrt({ replaceParent: true })
 export class PaymentAllocation extends PaymentAllocationBase {}

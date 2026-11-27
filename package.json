@@ -10,10 +10,11 @@
   },
   "scripts": {
     "dev": "pnpm --filter @arthur/web dev",
-    "dev:app": "pnpm --filter @arthur/app dev",
-    "build": "pnpm --filter @arthur/web build && pnpm --filter @arthur/app build",
-    "test:app": "pnpm --filter @arthur/app test",
-    "typecheck": "pnpm --filter @arthur/web typecheck && pnpm --filter @arthur/app typecheck",
+    "dev:app": "pnpm --dir apps/app dev",
+    "install:app": "pnpm --dir apps/app install",
+    "build": "pnpm --filter @arthur/web build && pnpm --dir apps/app build",
+    "test:app": "pnpm --dir apps/app test",
+    "typecheck": "pnpm --filter @arthur/web typecheck && pnpm --dir apps/app typecheck",
     "lint": "biome check ."
   },
   "devDependencies": {
