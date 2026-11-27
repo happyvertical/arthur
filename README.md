@@ -67,7 +67,7 @@ settings in [`apps/app/smrt-desktop.json`](apps/app/smrt-desktop.json). Pull req
 unsigned macOS (arm64) and Linux (x64) installers and run a launch smoke test. Runs outside pull
 requests also keep the unsigned installers as workflow artifacts. Nothing is signed or published
 unless someone dispatches the workflow on `main` with `release` turned on, and that run fails
-until the release environment, its secrets and the updater public key exist.
+until the release environment and its secrets exist.
 
 ## Contributing and issues
 

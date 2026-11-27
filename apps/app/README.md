@@ -19,8 +19,9 @@ build workflow all come from smrt. Not final yet:
 
 - `productId`, `bundleId` (`com.happyvertical.arthur`) and `displayName` are provisional until the
   owner confirms them. Do not release before then: installed apps cannot cleanly change them.
-- `updaterPublicKey` is deliberately absent. Unsigned builds carry smrt's invalid placeholder key,
-  and a release run refuses until this app's own public key is committed.
+- `updaterPublicKey` is the public half of Arthur's own updater key (minisign key ID
+  `C8D31B12A7970852`). The private key and password are not in this repository; a release run
+  refuses until they and the Apple secrets are in the protected `desktop-release` environment.
 - The icons are drawn from the app's favicon and can be replaced.
 
 The `@happyvertical/smrt-*` pins, `smrt_desktop_version` and the workflow commit SHA in
