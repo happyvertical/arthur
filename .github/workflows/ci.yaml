@@ -28,9 +28,16 @@ jobs:
         with:
           node-version: "26"
           cache: "pnpm"
+          cache-dependency-path: |
+            pnpm-lock.yaml
+            apps/app/pnpm-lock.yaml
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
+
+      # apps/app is a standalone project with its own lockfile.
+      - name: Install app dependencies
+        run: pnpm --dir apps/app install --frozen-lockfile
 
       - name: Lint
         run: pnpm lint

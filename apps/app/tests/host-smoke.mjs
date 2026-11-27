@@ -55,9 +55,8 @@ export function createHostModelFixture() {
       const body = JSON.parse(text);
       calls++;
       const answered = body.messages.some((m) => m.role === 'tool');
-      const name = body.tools?.find((t) => /customers[-_]read$/.test(t.function.name))?.function
-        .name;
-      if (!answered) assert.ok(name, 'customer read tool must be offered');
+      const name = body.tools?.find((t) => /members[-_]read$/.test(t.function.name))?.function.name;
+      if (!answered) assert.ok(name, 'member (customer) read tool must be offered');
       const message = answered
         ? { role: 'assistant', content: 'Customer list checked.' }
         : {
@@ -182,8 +181,8 @@ export async function runHostSmoke() {
     }
     assert.ok(ready, 'runtime must become healthy');
     const anonymous = await request('/api/customers');
-    // The live exposure gate hides model endpoints without an authenticated tenant.
-    assert.equal(anonymous.status, 404);
+    // Model endpoints refuse a request without an authenticated owner.
+    assert.equal(anonymous.status, 401);
     assert.equal((await request('/api/_runtime/owner-link?launch=invalid')).status, 403);
     const owner = await request(
       `/api/_runtime/owner-link?launch=${env.SMRT_DESKTOP_OWNER_LINK_SECRET}`,
